@@ -41,14 +41,8 @@ const Header = () => {
             ))}
           </nav>
 
-          <div className="hidden md:flex items-center space-x-4">
-            <Button variant="secondary" size="sm">
-              <ApperIcon name="Search" size={16} className="mr-2" />
-              Search
-            </Button>
-            <Button size="sm">
-              Get Started
-            </Button>
+<div className="hidden md:flex items-center space-x-4">
+            {/* Simplified header - removed search and CTA buttons */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -85,14 +79,8 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <div className="flex flex-col space-y-2 pt-4 border-t border-gray-200">
-                <Button variant="secondary" size="sm">
-                  <ApperIcon name="Search" size={16} className="mr-2" />
-                  Search
-                </Button>
-                <Button size="sm">
-                  Get Started
-                </Button>
+<div className="flex flex-col space-y-2 pt-4 border-t border-gray-200">
+                {/* Simplified mobile menu - removed search and CTA buttons */}
               </div>
             </div>
           </motion.div>
